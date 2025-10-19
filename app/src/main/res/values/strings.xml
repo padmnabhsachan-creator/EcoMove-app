@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Eco Move</string>
+    <string name="transport_mode_hint">Transport Mode (e.g., bus, train)</string>
+    <string name="distance_hint">Distance (in km)</string>
+    <string name="calculate_button">Calculate Emission Saved</string>
+    <string name="result_text">Estimated CO₂ saved: %1$.2f kg</string>
+    <string name="travel_info_placeholder">Travel info will appear here</string>
+    <string name="login">Login</string>
+    <string name="voucher_mode">Mode: %1$s</string>
+    <string name="voucher_route">From: %1$s → To: %2$s</string>
+    <string name="voucher_distance">Distance: %.2f km</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="points_label">Points: %1$d</string>
+    <string name="points_label_default">Points: 0</string>
+    <string name="earn_points">Earn Points</string>
+    <string name="redeem_points">Redeem Points</string>
+    <string name="not_enough_points">Not enough points to redeem</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="credit_points">Credit Points</string>
+    <string name="voucher_history">Voucher History</string>
+    <string name="name_format">Name: %1$s</string>
+    <string name="email_format">Email: %1$s</string>
+    <string name="phone_format">Phone: %1$s</string>
+    <string name="verified_status_true">Verified: Yes</string>
+    <string name="verified_status_false">Verified: No</string>
+    <string name="credit_format">Credit Points: %1$d</string>
+    <string name="welcome_message_with_email">Welcome, %1$s</string>
+    <string name="travel_info_format">
+    Mode: %1$s\nFrom: %2$s\nTo: %3$s\nDistance: %4$.2f km
+</string>
+    <string name="travel_info_not_found">No travel info found.</string>
+    <string name="travel_info_failed">Failed to fetch travel info.</string>
+    <string name="error_invalid_distance">Please enter a valid number for distance.</string>
+    <string name="error_empty_fields">Please fill in both fields.</string>
+    <string name="enter_pnr_button">Use PNR</string>
+    <string name="scan_qr_button">Scan QR Code</string>
+    <string name="qr_scan_waiting">Waiting for QR scan</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <string name="dashboard_title">EcoMove Dashboard</string>
+    <string name="open_dashboard">Open Dashboard</string>
+    <string name="nav_personal_info">Personal Info</string>
+    <string name="nav_credit_points">Credit Points</string>
+    <string name="nav_travel_history">Travel History</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_login">Login</string>
+    <string name="nav_logout">Logout</string>
+    <string name="logo_desc">App logo</string>
+    <string name="Welcome_text">Welcome to EcoMove</string>
+    <string name="voucher_name">Voucher Name</string>
+    <string name="voucher_details">Details</string>
+    <string name="redeem">Redeem</string>
+    <string name="vouchers">Vouchers</string>
+    <string name="credit_earned_label">Credit Earned: %1$d pts</string>
+
+
+</resources>

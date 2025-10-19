@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welcome_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F2"
+    android:backgroundTint="#F3F4F2"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+
+        android:text="@string/Welcome_text"
+        android:textColor="#2E7D32"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="309dp"
+        android:layout_height="472dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/logo_desc"
+        android:src="@drawable/ecomove_logo" />
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1B5E20"
+        android:text="@string/button_login"
+        android:textColor="#FFFFFF"
+        app:strokeColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#19541C"
+        android:text="@string/button_signup" />
+
+</LinearLayout>
